@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+
+.about-heading {
+  background-image: url(../../../assets/images/about-heading.jpg);
+}
+
+
+/* Clients */
+
+.happy-clients {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.happy-clients .client-item img {
+  max-width: 100%;
+  overflow: hidden;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.happy-clients .client-item img:hover {
+  opacity: 0.8;
+}
+
+.accordion {
+  margin-left: 30px;
+}
+
+.accordion a {
+  cursor: pointer;
+  font-size: 17px;
+  color: #1a6692!important;
+  margin-bottom: 20px;
+  transition: all .3s;
+}
+
+.accordion a:hover {
+  color: #f33f3f!important;
+}
+
+.accordion a.active {
+  color: #f33f3f!important;
+}
+
+.accordion li .content {
+  display: none;
+  margin-top: 10px;
+}
+
+.accordion li:first-child {
+  border-top: 1px solid #eee;
+}
+
+.accordion li {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0px;
+}
